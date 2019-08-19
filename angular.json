@@ -13,7 +13,8 @@
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
             "tsConfig": "projects/angular-lib-starter/tsconfig.lib.json",
-            "project": "projects/angular-lib-starter/ng-package.json"
+            "project": "projects/angular-lib-starter/ng-package.json",
+            "aot": true
           }
         },
         "test": {
@@ -57,7 +58,7 @@
             "main": "projects/angular-lib-app/src/main.ts",
             "polyfills": "projects/angular-lib-app/src/polyfills.ts",
             "tsConfig": "projects/angular-lib-app/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "projects/angular-lib-app/src/favicon.ico",
               "projects/angular-lib-app/src/assets"
@@ -214,7 +215,7 @@
             "main": "projects/angular-starter-app/src/main.ts",
             "polyfills": "projects/angular-starter-app/src/polyfills.ts",
             "tsConfig": "projects/angular-starter-app/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "projects/angular-starter-app/src/favicon.ico",
               "projects/angular-starter-app/src/assets"
