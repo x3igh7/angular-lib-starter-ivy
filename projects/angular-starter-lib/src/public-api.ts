@@ -1,7 +1,7 @@
 /*
- * Public API Surface of angular-starter-lib
+ * Public API Surface of angular-starter-component
  */
 
-export * from './lib/angular-starter-lib.service';
-export * from './lib/angular-starter-lib.component';
-export * from './lib/angular-starter-lib.module';
+export * from './lib/angular-starter-component/angular-starter.service';
+export * from './lib/angular-starter-component/angular-starter.component';
+export * from './lib/angular-starter-component/angular-starter.module';

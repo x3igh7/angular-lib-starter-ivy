@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AngularStarterLibComponent } from './angular-starter-lib.component';
+import { AngularStarterComponent } from './angular-starter.component';
 
-describe('AngularStarterLibComponent', () => {
-  let component: AngularStarterLibComponent;
-  let fixture: ComponentFixture<AngularStarterLibComponent>;
+describe('AngularStarterElement', () => {
+  let component: AngularStarterComponent;
+  let fixture: ComponentFixture<AngularStarterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AngularStarterLibComponent ]
+      declarations: [ AngularStarterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AngularStarterLibComponent);
+    fixture = TestBed.createComponent(AngularStarterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

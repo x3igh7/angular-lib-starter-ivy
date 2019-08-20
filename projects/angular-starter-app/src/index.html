@@ -9,6 +9,12 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <!--  <app-root></app-root>-->
+  <angular-starter id="starter" title="Custom Title!"></angular-starter>
+
+  <script>
+    const elm = document.getElementById('starter');
+    elm.addEventListener('countValue-change', e => console.debug('event', e));
+  </script>
 </body>
 </html>

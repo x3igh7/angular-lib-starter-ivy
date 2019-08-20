@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AngularStarterLibModule } from 'angular-starter-lib';
+import { AngularStarterModule } from 'angular-starter-lib';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularStarterLibModule
+    AngularStarterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
