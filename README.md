@@ -18,3 +18,4 @@ Run `ng build <library>` to build a specific library module. It should build as 
 
 ## References
 https://blog.angularindepth.com/creating-a-library-in-angular-6-87799552e7e5
+https://www.softwarearchitekt.at/en/aktuelles/%F0%9F%8C%BF%F0%9F%93%A6%F0%9F%85%B0%EF%B8%8F-web-components-with-angular-ivy-in-6-steps/
